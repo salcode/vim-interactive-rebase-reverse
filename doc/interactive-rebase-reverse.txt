@@ -1,0 +1,12 @@
+*interactive-rebase-reverse*
+
+Author: Sal Ferrarello <https://salferrarello.com/>
+License: Apache-2.0
+URL: https://github.com/salcode/vim-interactive-rebase-reverse
+
+A Vim plugin to reverse the order commits are displayed during a Git
+interactive rebase.
+
+This plugin is based on my difficultly with mentally shifting from
+git log (where the most recent commit appears at the top) to
+git rebase --interactive (where the most recent commit appears at the bottom).
