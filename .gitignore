@@ -2,7 +2,7 @@
 # .gitignore
 # Bare Minimum Git
 # http://ironco.de/bare-minimum-git/
-# ver 20181206
+# ver 20181206-vim-plugin
 #
 # From the root of your project run
 # curl -O https://gist.githubusercontent.com/salcode/10017553/raw/.gitignore
@@ -27,6 +27,7 @@
 # use `git rm --cached`
 #
 # Change Log:
+# Ignore generated Vim help generated file "/doc/tags"
 # 20181206 remove trailing whitespaces
 # 20180714 unignore .phpcs.xml.dist
 # 20170502 unignore composer.lock
@@ -42,6 +43,9 @@
 # 20140407 Initially Published
 #
 # -----------------------------------------------------------------
+
+# ignore generated Vim help generated file "tags"
+/doc/tags
 
 # ignore all files starting with . or ~
 .*
