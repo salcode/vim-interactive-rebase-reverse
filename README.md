@@ -8,7 +8,16 @@ to `git rebase --interactive` (where the most recent commit appears at the botto
 
 For more information, see my post on why the [Git Interactive Rebase Order is Wrong](https://salferrarello.com/git-interactive-rebase-order-is-wrong).
 
-## Demo
+## Installation
+
+Install using your favorite plugin manager.
+
+### [vim-plug](https://github.com/junegunn/vim-plug)
+
+- Add `Plug 'salcode/vim-interactive-rebase-reverse'` to .vimrc
+- Run `:PlugInstall`
+
+## Screenshots
 
 ### Default Interactive Git Rebase Order
 
