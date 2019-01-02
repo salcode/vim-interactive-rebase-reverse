@@ -1,6 +1,6 @@
 " interactive-rebase-reverse.vim - Reverse the order of commits in an interactive rebase
 " Author:  Sal Ferrarello <https://salferrarello.com/>
-" Version: 0.2.0
+" Version: 0.2.1
 
 " Ensure we only load this file once.
 if exists('g:ft_interactive_rebase_reverse')
