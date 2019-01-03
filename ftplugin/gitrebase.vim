@@ -1,6 +1,6 @@
 " interactive-rebase-reverse.vim - Reverse the order of commits in an interactive rebase
 " Author:  Sal Ferrarello <https://salferrarello.com/>
-" Version: 0.2.1
+" Version: 0.2.2
 
 " Ensure we only load this file once.
 if exists('g:ft_interactive_rebase_reverse')
@@ -15,5 +15,5 @@ global!/\(^#\)\|\(^$\)/m0
 augroup fe_interactive_rebase_reverse
 	autocmd!
 	" (Un)reverse the order of all commits in the git interactive rebase screen.
-	autocmd BufWrite * global!/\(^#\)\|\(^$\)/m0
+	autocmd BufWrite <buffer> * global!/\(^#\)\|\(^$\)/m0
 augroup END
