@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.3] - 2019-01-03
+### Changed
+- Extract line reverse code into a separate function
+
 ## [0.2.2] - 2019-01-03
 ### Changed
 - Limit reverse order autocmd to only current buffer
