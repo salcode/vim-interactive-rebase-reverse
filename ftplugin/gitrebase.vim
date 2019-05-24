@@ -1,6 +1,6 @@
 " interactive-rebase-reverse.vim - Reverse the order of commits in an interactive rebase
 " Author:  Sal Ferrarello <https://salferrarello.com/>
-" Version: 0.2.3
+" Version: 1.0.0
 
 " Reverse the order of all lines that do NOT:
 " - Begin with #
