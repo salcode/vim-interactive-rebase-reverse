@@ -22,5 +22,5 @@ call s:Reverse()
 augroup fe_interactive_rebase_reverse
 	autocmd!
 	" (Un)reverse the order of all commits in the git interactive rebase screen.
-	autocmd BufWrite <buffer> call s:Reverse()
+	autocmd BufWritePre <buffer> call s:Reverse()
 augroup END
